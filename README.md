@@ -38,22 +38,22 @@ The hypothesis was that the number of arbitrage opportunities would decrease as 
 Based on the bigger picture summary statistics and visualizations (i.e., comparison of the entire month of January to the entire month of March), the degree of spread got smaller (less spread out) as time progressed. Bitstamp and coinbase moved closer together as there is less blue color (bitstamp) peaking out from the yellow color (coinbase) as time progressed. In January, the coinbase standard deviation (SD) was 1947 and bitstamp SD was 1926 (1947-1926 = 21). In March, the bitstamp SD was 1275 and the coinbase SD was 1273 (1275-1273 = 2). Therefore, 21 is much greater than 2, so they were more spread from each other in January compared to March. 
 
 Look at the plots of the closing prices for the month of January compared to the month of March and see how the degree of spread got smaller as time progressed:
-![January Closing Prices](../Screenshots/January_Prices.png)
-![March Closing Prices](../Screenshots/March_Prices.png)
+![January Closing Prices](./Screenshots/January_Prices.png)
+![March Closing Prices](./Screenshots/March_Prices.png)
 
 ### Focused Analysis
 Based on the more focused analysis of three individual dates (one from early, middle, and late in the data period), the assumption made based on the bigger picture data was confirmed. After reviewing the profit information across each date from the three different time periods, I identified a trend that there were a lot more arbitrage opportunities in the beginning and less in the end. Looking at the data, you could have made 379,304.87 dollars in one day in January compared to 2286.62 dollars in one day in February and compared to 875.05 dollars in March. When choosing the dates, I tried to pick a date where the most arbitrage opportunities were avialable so that it would be a fair comparison. In addition, when looking at the standard deviations (SD) for the profit per trade for each date, the SD was highest in January (65.88), decreasing in February (48.99), and lowest in March (15.98). As more people were taking advantage of the cryptocurrency arbitrage opportunities, it became more normalized. The prices grew closer and closer together and fewer opportunities were present as time progressed. 
 
 Here are the summary statistics that show that the standard deviation decreased from the early to late date and that the number of profitable trades decreased as well:
-![Early, Middle, and Late Profit per Trade](../Screenshots/summary_stats.png)
+![Early, Middle, and Late Profit per Trade](./Screenshots/summary_stats.png)
 
 Here is the sum of the potential profits for the early, middle, and late dates:
-![Sum of profits](../Screenshots/Sum_Profits.png)
+![Sum of profits](./Screenshots/Sum_Profits.png)
 
 Here are the graphs of the cumulative profits. As the graph shows, the early date has steady, positive profits that accumulate to over 300,000 dollars. The middle date has three spikes where it increases, but it is leveling off a lot more than the early date and it only reaches to just over 2,000 dollars. The late date has one larger increase in the beginning of the plot, but then it levels off and only almost reaches to 900 dollars.
-![Early Cumulative Profits](../Screenshots/Early_Cumulative.png)
-![Middle Cumulative Profits](../Screenshots/Middle_Cumulative.png)
-![Late Cumulative Profits](../Screenshots/Late_Cumulative.png)
+![Early Cumulative Profits](./Screenshots/Early_Cumulative.png)
+![Middle Cumulative Profits](./Screenshots/Middle_Cumulative.png)
+![Late Cumulative Profits](./Screenshots/Late_Cumulative.png)
 
 ---
 ## Contributors
